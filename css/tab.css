@@ -1,0 +1,25 @@
+
+.wrapper {
+  padding: 15px 0;
+}
+@media (max-width: 479px) {
+  #narrow-browser-alert {
+    display: none;
+  }
+}
+#myTabContent {
+    border: thin solid #ccc;
+    border-top: none;
+    padding: 20px;
+}
+a{
+	color: #000 !important;
+}
+.nav-tabs>li>a:hover {
+    border:none;
+    /*border-bottom: thin solid #ddd !important;*/
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #fff !important;
+}
